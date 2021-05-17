@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.18.1-Zürich" projectname="" saveUser="fernando" saveUserFull="Fernando Gomes" saveDateTime="2021-03-25T10:49:36">
+<qgis version="3.18.1-Zürich" projectname="" saveUser="fernando" saveUserFull="Fernando Gomes" saveDateTime="2021-03-25T11:14:19">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,13 +20,13 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
+    <layer-tree-layer legend_exp="" expanded="1" legend_split_behavior="0" checked="Qt::Checked" name="perda-NDVI-1985-2020" source="../../../Downloads/perda-NDVI-1985-2020.tif" id="perda_NDVI_1985_2020_0c579e25_cd60_401e_86b6_653e2b7289d1" patch_size="-1,-1" providerKey="gdal">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer legend_exp="" expanded="1" legend_split_behavior="0" checked="Qt::Unchecked" name="Orto_PMD_RGB_2017" source="crs=EPSG:29193&amp;dpiMode=7&amp;format=image/png&amp;layers=Orto_PMD_RGB_2017&amp;styles&amp;url=http://raster.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/wms" id="Orto_PMD_RGB_2017_c1e15c60_ebd5_4037_8e7a_9363fb30a67c" patch_size="-1,-1" providerKey="wms">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer legend_exp="" expanded="1" legend_split_behavior="0" checked="Qt::Unchecked" name="OpenStreetMap" source="type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OpenStreetMap_aa2e176e_85eb_4e2b_a6a7_7bba67bbe2ff" patch_size="-1,-1" providerKey="wms">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer legend_exp="" expanded="1" legend_split_behavior="0" checked="Qt::Unchecked" name="perda-NDVI-1985-2020" source="../../../Downloads/perda-NDVI-1985-2020.tif" id="perda_NDVI_1985_2020_0c579e25_cd60_401e_86b6_653e2b7289d1" patch_size="-1,-1" providerKey="gdal">
+    <layer-tree-layer legend_exp="" expanded="1" legend_split_behavior="0" checked="Qt::Checked" name="OpenStreetMap" source="type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" id="OpenStreetMap_aa2e176e_85eb_4e2b_a6a7_7bba67bbe2ff" patch_size="-1,-1" providerKey="wms">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer legend_exp="" expanded="0" legend_split_behavior="0" checked="Qt::Checked" name="NVDI-sao-paulo-2020" source="./2020/NVDI-sao-paulo-2020.TIF" id="NVDI_sao_paulo_2020_0cf573c8_f9da_4ba3_a423_f90dba5daa17" patch_size="-1,-1" providerKey="gdal">
@@ -91,10 +91,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>266698.93734994367696345</xmin>
-      <ymin>-2677185.94862555246800184</ymin>
-      <xmax>412914.03017094568349421</xmax>
-      <ymax>-2598901.30877779703587294</ymax>
+      <xmin>337795.37158083659596741</xmin>
+      <ymin>-2607296.8951829643920064</ymin>
+      <xmax>342364.5932314929086715</xmax>
+      <ymax>-2604850.50018772203475237</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -115,19 +115,19 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" name="perda-NDVI-1985-2020" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="perda_NDVI_1985_2020_0c579e25_cd60_401e_86b6_653e2b7289d1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="Orto_PMD_RGB_2017" drawingOrder="-1">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="0" layerid="Orto_PMD_RGB_2017_c1e15c60_ebd5_4037_8e7a_9363fb30a67c"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="OpenStreetMap" drawingOrder="-1">
+    <legendlayer open="true" checked="Qt::Checked" showFeatureCount="0" name="OpenStreetMap" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="OpenStreetMap_aa2e176e_85eb_4e2b_a6a7_7bba67bbe2ff"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="perda-NDVI-1985-2020" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="perda_NDVI_1985_2020_0c579e25_cd60_401e_86b6_653e2b7289d1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="OpenStreetMap_aa2e176e_85eb_4e2b_a6a7_7bba67bbe2ff"/>
       </filegroup>
     </legendlayer>
     <legendlayer open="false" checked="Qt::Checked" showFeatureCount="0" name="NVDI-sao-paulo-2020" drawingOrder="-1">
@@ -1580,7 +1580,7 @@
       <layername>Orto_PMD_RGB_2017</layername>
       <srs>
         <spatialrefsys>
-          <wkt>PROJCRS["SAD69 / UTM zone 23S",BASEGEOGCRS["SAD69",DATUM["South American Datum 1969",ELLIPSOID["GRS 1967 Modified",6378160,298.25,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4618]],CONVERSION["UTM zone 23S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-45,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Brazil - 48°W to 42°W"],BBOX[-33.5,-48,5.13,-42]],ID["EPSG",29193]]</wkt>
+          <wkt></wkt>
           <proj4>+proj=utm +zone=23 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>2545</srsid>
           <srid>29193</srid>
@@ -1757,7 +1757,7 @@
         <provider>
           <resampling enabled="false" zoomedOutResamplingMethod="nearestNeighbour" zoomedInResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer gradient="WhiteToBlack" nodataColor="" grayBand="1" opacity="1" type="singlebandgray" alphaBand="-1">
+        <rasterrenderer nodataColor="" band="1" classificationMin="0.3" classificationMax="0.6484625" opacity="1" type="singlebandpseudocolor" alphaBand="-1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1767,24 +1767,46 @@
             <cumulativeCutUpper>0.98</cumulativeCutUpper>
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>0.2</minValue>
-            <maxValue>0.8</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-          <rampLegendSettings prefix="" useContinuousLegend="1" maximumLabel="" minimumLabel="" suffix="" direction="0" orientation="2">
-            <numericFormat id="basic">
-              <Option type="Map">
-                <Option name="decimal_separator" value="" type="QChar"/>
-                <Option name="decimals" value="6" type="int"/>
-                <Option name="rounding_type" value="0" type="int"/>
-                <Option name="show_plus" value="false" type="bool"/>
-                <Option name="show_thousand_separator" value="true" type="bool"/>
-                <Option name="show_trailing_zeros" value="false" type="bool"/>
-                <Option name="thousand_separator" value="" type="QChar"/>
-              </Option>
-            </numericFormat>
-          </rampLegendSettings>
+          <rastershader>
+            <colorrampshader maximumValue="0.64846250000000005" labelPrecision="4" colorRampType="INTERPOLATED" clip="0" minimumValue="0.29999999999999999" classificationMode="1">
+              <colorramp name="[source]" type="gradient">
+                <Option type="Map">
+                  <Option name="color1" value="255,245,240,255" type="QString"/>
+                  <Option name="color2" value="103,0,13,255" type="QString"/>
+                  <Option name="discrete" value="0" type="QString"/>
+                  <Option name="rampType" value="gradient" type="QString"/>
+                  <Option name="stops" value="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255" type="QString"/>
+                </Option>
+                <prop k="color1" v="255,245,240,255"/>
+                <prop k="color2" v="103,0,13,255"/>
+                <prop k="discrete" v="0"/>
+                <prop k="rampType" v="gradient"/>
+                <prop k="stops" v="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255"/>
+              </colorramp>
+              <item color="#fff5f0" label="0,3000" alpha="255" value="0.3"/>
+              <item color="#fee0d2" label="0,3453" alpha="255" value="0.345300125"/>
+              <item color="#fcbba1" label="0,3906" alpha="255" value="0.39060025"/>
+              <item color="#fc9272" label="0,4359" alpha="255" value="0.435900375"/>
+              <item color="#fb6a4a" label="0,4812" alpha="255" value="0.4812005"/>
+              <item color="#ef3b2c" label="0,5265" alpha="255" value="0.526500625"/>
+              <item color="#cb181d" label="0,5718" alpha="255" value="0.57180075"/>
+              <item color="#a50f15" label="0,6136" alpha="255" value="0.61361625"/>
+              <item color="#67000d" label="0,6485" alpha="255" value="0.6484625"/>
+              <rampLegendSettings prefix="" useContinuousLegend="1" maximumLabel="" minimumLabel="" suffix="" direction="0" orientation="2">
+                <numericFormat id="basic">
+                  <Option type="Map">
+                    <Option name="decimal_separator" value="" type="QChar"/>
+                    <Option name="decimals" value="6" type="int"/>
+                    <Option name="rounding_type" value="0" type="int"/>
+                    <Option name="show_plus" value="false" type="bool"/>
+                    <Option name="show_thousand_separator" value="true" type="bool"/>
+                    <Option name="show_trailing_zeros" value="false" type="bool"/>
+                    <Option name="thousand_separator" value="" type="QChar"/>
+                  </Option>
+                </numericFormat>
+              </rampLegendSettings>
+            </colorrampshader>
+          </rastershader>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0" gamma="1"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeStrength="100"/>
@@ -1876,7 +1898,7 @@
     <srcDest coordinateOp="+proj=pipeline +step +inv +proj=utm +zone=23 +south +ellps=aust_SA +step +proj=push +v_3 +step +proj=cart +ellps=aust_SA +step +proj=helmert +x=-66.87 +y=4.37 +z=-38.52 +step +inv +proj=cart +ellps=WGS84 +step +proj=pop +v_3 +step +proj=utm +zone=23 +ellps=WGS84" allowFallback="1">
       <src>
         <spatialrefsys>
-          <wkt>PROJCRS["SAD69 / UTM zone 23S",BASEGEOGCRS["SAD69",DATUM["South American Datum 1969",ELLIPSOID["GRS 1967 Modified",6378160,298.25,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4618]],CONVERSION["UTM zone 23S",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-45,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",10000000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Brazil - 48°W to 42°W"],BBOX[-33.5,-48,5.13,-42]],ID["EPSG",29193]]</wkt>
+          <wkt></wkt>
           <proj4>+proj=utm +zone=23 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs</proj4>
           <srsid>2545</srsid>
           <srid>29193</srid>
@@ -1918,7 +1940,7 @@
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="412914.03017094568349421" xmin="266698.93734994367696345" ymin="-2678119.19400975666940212" ymax="-2597968.06339359283447266">
+    <DefaultViewExtent xmax="342364.5932314929086715" xmin="337795.37158083659596741" ymin="-2607639.47457497613504529" ymax="-2604507.92079571029171348">
       <spatialrefsys>
         <wkt>PROJCRS["WGS 84 / UTM zone 23N",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["UTM zone 23N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-45,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - N hemisphere - 48°W to 42°W - by country"],BBOX[0,-48,84,-42]],ID["EPSG",32623]]</wkt>
         <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
